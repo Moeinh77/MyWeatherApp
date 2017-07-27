@@ -16,8 +16,6 @@ import java.net.URL;
 
 public class WeatherHttpClient {
 
-    private Bitmap bitmap;
-
     public String getWeatherData(String place) {
         HttpURLConnection connection;
         InputStream inputStream;
